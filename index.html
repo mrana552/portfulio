@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>M.Rana portfulio</title>
+		<meta charset="utf-8"/>
+		<!-- fontawesome link 6.2.0 -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+		<!-- Main stylesheet link -->
+		<link rel="stylesheet" href="assets/css/style.css"/>
+	</head>
+	<body>
+        <header>
+            <div class="container">
+                <nav>
+                    <a href="index.html"><img class="logo" src="assets/images/logo.png" alt="Logo" title="Kevin."></a>
+                    <ul id="sidemenu">
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#service">Services</a></li>
+                        <li><a href="#portfulio">Portfolio</a></li>
+                        <li><a href="#contact">contact</a></li>
+                       <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul> 
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav> 
+                <div class="header-text">
+                    <p>UI/UX Designer</p>
+                    <h1>Hi, I'm<span> Kevin</span><br/>Jen From Australia</h1>
+                </div>
+            </div>
+        </header>
+        <!--== header section end ==-->
+
+        <!--== about section start ==-->
+        <section id="about">
+            <div class="container">
+               <div class="row">
+                    <div class="about-col-1">
+                        <img src="assets/images/user.png" alt="Kevin Jon" title="Kevin Jon">
+                    </div>
+                    <div class="about-col-2">
+                        <h2 class="sec-title">About Me</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error, eius? Consectetur quos, explicabo nemo accusamus ex eum ipsam ea minus officiis. Mollitia, architecto. Nulla, voluptas qui temporibus ducimus, tempora corrupti ea dolor assumenda corporis, nam aliquam eos deserunt doloremque. Illo, est, dolor rem aut accusantium amet molestias maxime dolores consequuntur error, facere doloribus. Architecto praesentium magni facilis .</p>
+                        <div class="tab-title">
+                            <h3 class="tab-links active-link" onclick="opentab('skills')">Skills</h3>
+                            <h3 class="tab-links" onclick="opentab('expperience')">Expperience</h3>
+                            <h3 class="tab-links" onclick="opentab('education')">Education</h3>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul> 
+                                <li><span>UI/UX</span><br/>Designig Web/App interfaces</li>
+                                <li><span>Web Devlopment</span><br/>Web App Devlopment</li>
+                                <li><span>App Devlopment</span><br/>Building Android/ios app</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="expperience">
+                            <ul>
+                                <li><span>2021 - Current</span><br/>UI/UX Design Training at ET Institute.</li>
+                                <li><span>2019 - 2021</span><br/>Team lead at starApp LLC.</li>
+                                <li><span>2017 - 2019</span><br/>UI/UX Design Excutive at Coin Digital Ltd.</li>
+                                <li><span>2016 - 2017</span><br/>Internship at ekart eCommerce.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2016</span><br/>UI/UX Design Training at ET Institute.</li>
+                                <li><span>2016</span><br/>MBA form MIT Bangalore.</li>
+                                <li><span>2014</span><br/>BBA form ISM Bangalore.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <!--== about section end ==-->
+        
+        <!--== service section start ==-->
+        <section id="service">
+            <div class="container">
+                <h2 class="sec-title">Services</h2>
+                <div class="service-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h3>Web Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis ab, illo enim laboriosam beatae debitis ducimus fuga sapiente nobis optio,</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h3>Web Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis ab, illo enim laboriosam beatae debitis ducimus fuga sapiente nobis optio,</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h3>Web Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis ab, illo enim laboriosam beatae debitis ducimus fuga sapiente nobis optio,</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--== service section end ==-->
+
+        <!--== portfulio section start ==-->
+        <section id="portfulio">
+            <div class="container">
+                <h2 class="sec-title">MY Work</h2>
+               <div class="work-list">
+                    <div class="work">
+                        <img src="assets/images/work-1.png" alt="portfulio img">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aspernatur consectetur amet, ducimus doloribus odio.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="assets/images/work-2.png" alt="portfulio img">
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aspernatur consectetur amet, ducimus doloribus odio.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="assets/images/work-3.png" alt="portfulio img">
+                        <div class="layer">
+                            <h3>Web App</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aspernatur consectetur amet, ducimus doloribus odio.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+                        </div>
+                    </div>
+                </div>
+                <a class="btn" href="#">See More</a>
+            </div>
+        </section>
+        <!--== portfulio section end ==-->
+
+        <!--== contact section start ==-->
+        <section id="contact">
+            <div class="container">
+                <div class="contact-inner">
+                    <div class="contact-left">
+                        <h2 class="sec-title">contact Me</h2>
+                        <p><i class="fa-regular fa-paper-plane"></i>rana4iid@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>0123456789</p>
+                        <div class="social-icon">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a class="btn" href="#">Download Cv</a>
+                   </div>
+                   <div class="contact-right">
+                        <form action="" method="get">
+                            <input type="text" name="Name" id="" placeholder="Your Name" required/>
+                            <input type="email" name="e-mail" id="" placeholder="Your E-mail" required/>
+                            <textarea name="Message" id="" rows="6" placeholder="Write Your Message"></textarea>
+                            <button class="btn" type="submit">Submit</button>
+                        </form>
+                   </div>
+                </div>
+                <div class="copyright">
+                    <p>Copyright &copy Kevin. Made with <i class="fa-solid fa-heart"></i> by Masud Rana</p>
+                </div>
+            </div>
+        </section>
+        <!--== contact section end ==-->
+
+        <!--== Java script link ==-->
+        <script src="assets/js/main.js"></script> 
+	</body>
+</html>
